@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 24 12:01:52 2023
 
-@author: Admin
-"""
 import time
 from selenium.webdriver.common.by import By
 from selenium import webdriver
@@ -48,6 +43,7 @@ time.sleep(1)
 dist_level.select_by_visible_text('District Level')
 time.sleep(2)
 
+#read the excel file "district wise lat long here"
 df=pd.read_excel(r"E:\NDVI vedas modis script\district-wise-lat-long.xlsx", sheet_name='Uttar Pradesh')
 time.sleep(1)
 
