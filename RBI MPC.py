@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul  4 11:29:21 2023
-
-@author: Admin
-"""
 
 import pandas as pd
 import time
