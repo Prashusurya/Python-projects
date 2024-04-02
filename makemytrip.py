@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec  6 12:38:42 2023
-
-@author: Admin
-"""
 
 import pandas as pd
 import time
@@ -28,7 +22,6 @@ screen_height = driver.execute_script("return window.screen.height;")
 # print("Screen Height:",screen_height)
 
 k=1
-
 while True:
         k+=1
         try:
