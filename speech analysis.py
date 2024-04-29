@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan  4 11:22:55 2024
-
-@author: Admin
-"""
 
 import time
 from selenium.webdriver.common.by import By
